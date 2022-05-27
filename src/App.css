@@ -1,38 +1,42 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  height: 100vh;
+  background-color: #2C363F;
+  color: #F2F5EA;
+  font-family: 'Hubballi', cursive;
+}
+
+.app .title {
+  text-align: center;
+  padding-top:15px ;
+  margin-bottom: 35px;
+}
+.app .title2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.form-group {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form-group label {
+  display: block;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form-group input {
+  width: 20%;
+  padding: 5px 10px;
+  border-radius: 5px;
+  outline: none;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-group button {
+  width: 20%;
+  padding: 5px 10px;
+  border-radius: 5px;
+  outline: none;
 }
